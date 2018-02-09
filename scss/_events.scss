@@ -7,7 +7,9 @@
   overflow: hidden;
 }
 
-
+.body--events{
+  background-color: white;
+}
 .backdrop__fullscreen{
   position: relative;
   min-height: 100vh;
@@ -15,6 +17,7 @@
   background-size: cover;
   background-position: center center;
   background-image: url(../img/hands.jpg);
+  // margin-bottom: 100px;
   // margin-bottom: 50px;
 }
 .elementCenteredAllWays{
@@ -24,27 +27,32 @@
   transform: translate(-50%, -50%);
   text-align: center;
   // background-color: green;
-  font-size: 7rem;
+  font-size: 8rem;
   font-family: "Montserrat", Helvetica, Arial;
   font-weight: 700;
   color: white;
+}
+@media(max-width: 768px){
+  .elementCenteredAllWays{
+    font-size: 5.0rem;
+  }
 }
 
 
 // ********* EVENTS ***********//
 
 .events{
-  width:70%;
+  width:95%;
   background-color: white;
   margin: 0 auto;
   font-size: 1.6rem;
 }
-@media(max-width: 768px){
+@media(max-width: 800px){
   .events {
     width: 95%;
   }
 }
 .row{
   margin-bottom: 30px;
-  clear: both;
+  // height: 400px;
 }

@@ -1,0 +1,65 @@
+.smart--boxes{
+  width: 33.33333%;
+  // height: 500px;
+  float: left;
+  padding-right: 0.625rem;
+  padding-left: 0.625rem;
+}
+.smart--boxes__container{
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  // height: 293px;
+}
+.smart--boxes__container::before{
+  content: "";
+  display: block;
+  padding-top: 60%;
+}
+.ministries-container{
+  margin: 50px 0px;
+}
+.minsrt--box{
+  // margin-bottom: 20px;
+  max-width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  // height: 800px;
+}
+.minsrt--box__fit{
+  background-size: cover;
+}
+
+.ministry_inner_square{
+  // width: 100%;
+  // height: 100%;
+  // position: relative;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgba(25, 32, 38, 0.6);
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-size: 2.6rem;
+}
+
+@media(max-width: 768px){
+  .smart--boxes{
+    float: none;
+    width: 70%;
+    margin: 0 auto;
+
+  }
+  .ministry_inner_square{
+    font-size: 1.6rem;
+  }
+}

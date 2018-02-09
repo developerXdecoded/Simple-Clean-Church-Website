@@ -5,6 +5,7 @@
   height: 246px;
   color: black;
   padding: 20px 10px;
+  overflow: hidden;
 }
 .box__dark{
   @extend .box; //take on .box styles //
@@ -56,6 +57,7 @@
   width:55%;
   float: left;
   padding: 40px 25px;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
 }
 .date-styles{
   opacity: 0.3;
@@ -68,9 +70,10 @@
 }
 .object-fit_fill{
   //object-fit: fill;
-  width: 59%;
-  display: block;
-  margin: 10px auto;
+  // width: 59%;
+  // display: block;
+  // margin: 10px auto;
+  max-width: 100%;
 }
 
 @media(max-width: 768px){
