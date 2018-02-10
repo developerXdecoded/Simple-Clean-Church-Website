@@ -349,8 +349,7 @@ footer .container ul li {
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
-  background-image: url(../img/hands.jpg); }
+  background-position: center center; }
 
 .elementCenteredAllWays {
   position: absolute;
@@ -402,8 +401,7 @@ header {
   letter-spacing: 1.5px;
   position: fixed;
   background: #141414;
-  z-index: 10;
-  display: none; }
+  z-index: 10; }
 
 .nav-container {
   padding-top: 30px; }
